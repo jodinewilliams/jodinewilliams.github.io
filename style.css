@@ -1,0 +1,381 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+:root{
+    scroll-behavior: smooth;
+    scroll-padding: 60px;
+}
+body{
+        font-family: "Irish Grover", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "inter";
+
+}
+.header{
+    width: 100%;
+background: #ffffff;
+position: fixed;
+}
+.header__content{
+    display: flex;
+    padding: 21px 78px 21px 35px;
+    justify-content: space-between;
+    gap: 90px;
+}
+.content{
+    display: flex;
+align-items: center;
+gap: 420px;
+}
+.nombre__h{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.nav__font{
+    display: flex;
+align-items: flex-start;
+gap: 43px;
+}
+.nav__link{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-decoration: none;
+}
+.nav__link:hover{
+    background-color: rgb(130, 155, 255);
+    
+}
+.frame1{
+    width: 1515px;
+    height: 923px;
+    display: flex;
+padding: 296px 328px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+background: url(./Recursos/image\ 2.svg) lightgray 50% / cover no-repeat;
+padding-top: calc(93px + 296px) ;
+}
+.contentlitle{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 22px;
+}
+.tlitle{
+    color: #EE0C5B;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: "Irish Grover";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.frame2{
+    display: flex;
+    width: 1515px;
+    height: 927px;
+    padding: 118px 111px 152px 111px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFF;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin: 0 auto;
+}
+.fontcontent{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 7px;
+}
+.sobre__mi{
+    color: #000000;
+font-family: "Irish Grover";
+font-size: 130px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.paragraph{
+    width: 644px;
+    color: #000000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.perfil{
+    display: flex;
+    width: 424px;
+    height: 551px;
+    padding: 2px 0px;
+    align-items: center;
+    align-content: center;
+    gap: 11px 196px;
+    flex-wrap: wrap;
+    border-radius: 40px;
+background: #f9add4;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image{
+    width: 424px;
+    height: 412px;
+    flex-shrink: 0
+}
+.frame3{
+    display: flex;
+width: 1515px;
+height: 773px;
+padding: 56px 76px 42px 76px;
+align-items: flex-start;
+gap: -34px;
+background: linear-gradient(180deg, #FE2083 0%, #FF1B47 100%);
+}
+.contenedor__frame3{
+width: 1342px;
+height: 637px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex-shrink: 0;
+margin: 0 auto;
+}
+.contenedorpadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.contenedor__letras{
+    display: flex;
+    width: 556px;
+    height: 128px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+color: #FFF;
+text-align: center;
+font-family: "Irish Grover";
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contenedor__recuadro{
+    display: inline-flex;
+    width: 410px;
+    height: 391px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+background: #FFA042;
+margin: center;
+}
+.content__letrass{
+    display: flex;
+    width: 410px;
+    height: 391px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.font__servicios{
+    color: #000;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+left: 19px;
+bottom: 50px;
+}
+.trabajos{
+    display: flex;
+width: 521px;
+height: 569px;
+align-items: flex-start;
+align-content: flex-start;
+gap: 9px 12px;
+flex-shrink: 0;
+flex-wrap: wrap; 
+}
+.img1{
+    width: 229px;
+height: 265px;
+flex-shrink: 0;
+}
+.frame4{
+    display: flex;
+width: 1515px;
+height: 859px;
+padding: 34px 60px;
+justify-content: center;
+align-items: center;
+gap: 31px;
+background: #ffffff;
+}
+.contenedor__frame4{
+    display: flex;
+    width: 1515px;
+    padding: 34px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+.contenedor__programas{
+display: flex;
+height: 787px;
+justify-content: center;
+align-items: center;
+gap: 84px;
+}
+.programas{
+    color: #000000;
+font-family: "Irish Grover";
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.svg__programas{
+    display: flex;
+width: 524px;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+row-gap: 52px;
+flex-wrap: wrap;
+}
+.frame5{
+    display: flex;
+    width: 1515px;
+    height: 907px;
+    padding: 35px 0px 138px 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 119px;
+background: linear-gradient(180deg, #FE2083 0%, #FF1B4D 100%);
+}
+.content__foother{
+    display: flex;
+    width: 555px;
+    height: 626px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.emoji__foother{
+    width: 346px;
+height: 346px;
+display: flex;
+padding: 10px;
+align-items: flex-start;
+gap: 10px;
+}
+.emoji__foother:hover{
+    background-color:  #ff0000;
+    border-radius: 99999px;
+}
+.contactame{
+display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.font__contactame{
+color: #FFF;
+font-family: "Irish Grover";
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.font__contactame:hover{
+    color: #000000;
+}
+.content__insta{
+    display: flex;
+align-items: center;
+gap: 3px;
+}
+.logo__instagram{
+    display: flex;
+width: 54px;
+height: 52px;
+justify-content: center;
+align-items: center;
+}
+.button__correo{
+    display: flex;
+padding: 9px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: #D1F265;
+color: #000;
+font-family: "Irish Grover";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+/* animation */
+animation-name: cambiarcolor;
+animation-duration: 10s;
+}
+@keyframes cambiarcolor{
+    0%{
+        background-color: rgb(255, 25, 0);
+    }
+    10%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: #FE2083;
+    }
+    60%{
+        background-color: darkorchid;
+    }
+    100%{
+        background-color: rgb(255, 81, 0);
+    }
+}
+.last__foother{
+    display: flex;
+width: 1515px;
+height: 93px;
+padding: 10px;
+align-items: flex-start;
+gap: 10px;
+background: #ffffff;
+}
